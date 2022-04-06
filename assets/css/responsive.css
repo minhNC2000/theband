@@ -1,5 +1,5 @@
 /* iPads */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
     #content .content-section{
         max-width: 100%;
         padding-left: 22px;
@@ -7,7 +7,7 @@
     }
 }
 /* Ipad & Mobile */
-    @media only screen and (max-width : 1024px) and (orientation : portrait){
+    @media only screen and (max-width : 1023px) and (orientation : portrait){
     #nav .subnav a{
         padding: 5px 12px;
     }
@@ -38,8 +38,8 @@
     }
 }
 
-/* Iphone 6/7/8 Plus */
-@media only screen and (min-width : 414px) and (max-width : 736px) and (orientation : portrait) {
+/* Mobile */
+@media only screen and (max-width : 767px) and (orientation : portrait) {
     .s-full-width,
     .s-col-full{
         width: 100% !important;
